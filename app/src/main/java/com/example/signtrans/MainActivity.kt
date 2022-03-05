@@ -23,8 +23,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         getSupportActionBar()?.setDisplayShowHomeEnabled(true)
-        getSupportActionBar()?.setIcon(R.drawable.ic_hackmerced_icwhite)
-
+        getSupportActionBar()?.setIcon(R.drawable.ic_toolbar_ic)
         Speech.init(this, getPackageName());
 
         val btn = findViewById<ImageButton>(R.id.button)
@@ -70,7 +69,7 @@ class MainActivity : AppCompatActivity() {
                 Log.e("speech", "Speech recognition is not available on this device!")
                 // You can prompt the user if he wants to install Google App to have
                 // speech recognition, and then you can simply call:
-                //
+
                 // SpeechUtil.redirectUserToGoogleAppOnPlayStore(this);
                 //
                 // to redirect the user to the Google App page on Play Store

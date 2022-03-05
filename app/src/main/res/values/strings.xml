@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">SignTrans</string>
     <string name="you_can_also_type_your_sentence_here">You can also type your sentence here.</string>
+    <string name="go_back">Go Back</string>
 </resources>
