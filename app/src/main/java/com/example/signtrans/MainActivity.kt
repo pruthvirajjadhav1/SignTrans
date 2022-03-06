@@ -87,12 +87,9 @@ class MainActivity : AppCompatActivity() {
             }else{
                 intent.putExtra("myString", str)
                 startActivity(intent)
-                finish()
             }
         }
     }
-
-
 
     override fun onDestroy() {
         super.onDestroy()

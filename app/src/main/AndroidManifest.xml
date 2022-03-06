@@ -12,8 +12,9 @@
         android:theme="@style/Theme.Signtrans">
         <activity
             android:name=".TranslatorActivity"
-            android:screenOrientation="fullSensor"
-            android:exported="false" />
+            android:exported="false"
+            />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">

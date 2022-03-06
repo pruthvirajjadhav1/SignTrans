@@ -12,6 +12,7 @@ import android.text.Spannable
 import android.text.SpannableString
 import android.text.style.ForegroundColorSpan
 import android.widget.Button
+import android.widget.ImageButton
 import android.widget.Toast
 import com.daimajia.androidanimations.library.Techniques
 import com.daimajia.androidanimations.library.YoYo
@@ -26,8 +27,7 @@ class TranslatorActivity : AppCompatActivity() {
         val tv1 = findViewById<TextView>(R.id.tv_1)
         val tv2 = findViewById<TextView>(R.id.tv_2)
         val btn2 = findViewById<Button>(R.id.button2)
-        btn2.backgroundTintList = ColorStateList.valueOf(resources.getColor(R.color.darker_grey))
-        //tv1.setText(" ")
+
         var len = myString!!.length
         tv2.text = myString
 
