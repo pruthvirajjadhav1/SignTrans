@@ -21,8 +21,6 @@
     <!--        app:layout_constraintStart_toStartOf="parent"-->
     <!--        app:layout_constraintTop_toTopOf="parent" />-->
 
-
-
     <TextView
         android:id="@+id/tv_2"
         android:layout_width="match_parent"
@@ -32,24 +30,24 @@
         android:background="@drawable/tv_border"
         android:gravity="center_horizontal"
         android:text="hello"
+        android:padding="10dp"
         android:textSize="20sp"
         android:textStyle="bold"
         tools:ignore="MissingConstraints"
        />
 
+
     <TextView
         android:id="@+id/tv_1"
         android:layout_width="353dp"
         android:layout_height="420dp"
-        android:gravity="center"
         android:layout_gravity="center_horizontal"
         android:fontFamily="@font/gallaudet_regular"
+        android:gravity="center"
         android:maxLength="1"
-        android:textColor="@color/black"
         android:text="R"
-        android:textSize="500dp"
-      />
-
+        android:textColor="@color/black"
+        android:textSize="500dp" />
 
     <Button
         android:id="@+id/button2"
